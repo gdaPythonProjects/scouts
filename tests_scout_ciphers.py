@@ -3,7 +3,7 @@ import scout_ciphers
 
 
 class TestScout(unittest.TestCase):
-    def test_cipher(self):
+    def test_cesar(self):
         self.assertAlmostEqual(scout_ciphers.cesar('aBcD', 1), 'BCDE')
         self.assertAlmostEqual(scout_ciphers.cesar('aBcD', 5), 'FGHI')
         self.assertAlmostEqual(scout_ciphers.cesar('aBcD'), 'NOPQ')
