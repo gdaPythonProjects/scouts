@@ -64,3 +64,38 @@ def fence(input_string, fence_height):
             output_string += char
 
     return output_string
+
+
+def gaderypoluki(input_string, key):
+    if isinstance(input_string, str) is False or input_string is '':
+        raise ValueError('input_string should be type of str() and not empty or null')
+    if isinstance(key, str) is False or key is '':
+        raise ValueError('key should be type of str() and not empty or null')
+
+    input_string = input_string.lower()
+    key = key.lower()
+
+    i = 2
+    while i < len(key):
+        if key[i] is not '-':
+            raise ValueError("Wrong format of key value. Should be like: 'GA-DE-RY-PO-LU-KI'")
+        i += 3
+
+    simplified_key = ''
+    for char in key:
+        if char is not '-':
+            simplified_key += char
+
+    output_string = ''
+    for char in input_string:
+        if char in simplified_key:
+            index = simplified_key.index(char)
+            if index % 2 is 0:
+                index += 1
+            else:
+                index -= 1
+            output_string += simplified_key[index]
+        else:
+            output_string += char
+
+    return output_string
