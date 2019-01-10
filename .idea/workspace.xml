@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bac1eb2-5391-4b7a-976a-099b682e43fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scout_ciphers.py" beforeDir="false" afterPath="$PROJECT_DIR$/scout_ciphers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests_scout_ciphers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests_scout_ciphers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +43,12 @@
     <session id="1429537893">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,13 +65,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3823" />
+          <entry key="py" value="4344" />
           <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3823" />
+          <entry key="Python" value="4344" />
           <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scout_ciphers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="1254">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -91,10 +91,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests_scout_ciphers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="348">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <marker date="1547125257366" expanded="true" signature="959:963" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,8 +117,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/tests_scout_ciphers.py" />
         <option value="$PROJECT_DIR$/scout_ciphers.py" />
+        <option value="$PROJECT_DIR$/tests_scout_ciphers.py" />
       </list>
     </option>
   </component>
@@ -134,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +146,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +201,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for tests_scout_ciphers.TestScout.test_cesar_again" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="scouts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_scout_ciphers.TestScout.test_cesar_again&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for tests_scout_ciphers.TestScout.test_fence" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="scouts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,10 +248,12 @@
       <item itemvalue="Python.scout_ciphers" />
       <item itemvalue="Python tests.Unittests for tests_scout_ciphers.TestScout.test_cesar" />
       <item itemvalue="Python tests.Unittests for tests_scout_ciphers.TestScout.test_fence" />
+      <item itemvalue="Python tests.Unittests for tests_scout_ciphers.TestScout.test_cesar_again" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in tests_scout_ciphers.py" />
+        <item itemvalue="Python tests.Unittests for tests_scout_ciphers.TestScout.test_cesar_again" />
         <item itemvalue="Python.scout_ciphers" />
         <item itemvalue="Python tests.Unittests for tests_scout_ciphers.TestScout.test_fence" />
         <item itemvalue="Python tests.Unittests for tests_scout_ciphers.TestScout.test_cesar" />
@@ -257,21 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 12h 03m 28s.xml">
-      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 12h 03m 32s.xml">
-      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 12h 04m 06s.xml">
-      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 12h 06m 05s.xml">
-      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 19h 12m 51s.xml">
-      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 19h 13m 17s.xml">
       <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
     </history-entry>
@@ -285,6 +287,21 @@
       <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.07 at 20h 37m 12s.xml">
+      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_scout_ciphers_TestScout_test_cesar_again - 2019.01.10 at 13h 42m 44s.xml">
+      <configuration name="Unittests for tests_scout_ciphers.TestScout.test_cesar_again" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.10 at 13h 42m 50s.xml">
+      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.10 at 13h 43m 22s.xml">
+      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.10 at 13h 57m 39s.xml">
+      <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests_scout_ciphers_py - 2019.01.10 at 14h 00m 48s.xml">
       <configuration name="Unittests in tests_scout_ciphers.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -324,17 +341,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scout_ciphers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        <state relative-caret-position="1254">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests_scout_ciphers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="348">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+            <marker date="1547125257366" expanded="true" signature="959:963" ph="..." />
           </folding>
         </state>
       </provider>
