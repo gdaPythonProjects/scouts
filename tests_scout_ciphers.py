@@ -10,8 +10,10 @@ class TestScout(unittest.TestCase):
         self.check_exceptions(scout_ciphers.cesar)
 
     def test_fence(self):
-        self.assertAlmostEqual(scout_ciphers.fence('kryptografia', 4), 'kgroraytaipf')
-        self.assertAlmostEqual(scout_ciphers.fence('scoutciphers', 3), 'sthcucpesoir')
+        self.assertAlmostEqual(scout_ciphers.fence(
+            'kryptografia', 4), 'kgroraytaipf')
+        self.assertAlmostEqual(scout_ciphers.fence(
+            'scoutciphers', 3), 'sthcucpesoir')
         self.check_exceptions(scout_ciphers.fence)
 
     def test_gaderypoluki(self):
@@ -20,6 +22,13 @@ class TestScout(unittest.TestCase):
         self.assertAlmostEqual(
             scout_ciphers.gaderypoluki('przez harcerzy', 'RE-GU-LA-MI-NO-WY'), 'pezrz hlecrezw')
         self.check_exceptions(scout_ciphers.gaderypoluki)
+
+    def test_vignere(self):
+        self.assertAlmostEqual(scout_ciphers.vignere(
+            'TO JEST BARDZO TAJNY TEKST', 'TAJNE'), 'MO SRWM BJEHSO CNNGY CROLT')
+        self.assertAlmostEqual(scout_ciphers.vignere(
+            'TO JEST BARDZO TAJNY TEKST', 'NT OJES TBARDZ OTAJN YTEKS'), 'GH XNWL UBRUCN HTJWL RXOCL')
+        self.check_exceptions(scout_ciphers.vignere)
 
     def check_exceptions(self, func):
         self.assertRaises(ValueError, func, 'test value', '')
